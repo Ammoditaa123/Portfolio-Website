@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammoditaa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Ammoditaa</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="dark-mode-toggle" class="mode-toggle">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <div class="banner-content">
+                <h1 class="scroll-text">Hola Amigo!</h1>
+                <h1 class="scroll-text">Kaise ho theek ho?</h1>
+            </div>
+        </section>
+
+
+        <section id="about" class="section about-me">
+            <div class="container">
+                <img src="ammo.jpeg" alt="Profile Picture" class="profile-pic">
+                <h1>Hello, I'm Ammoditaa Kandpal</h1>
+                <p>I am a passionate front-end developer with a focus on creating clean, responsive, and user-friendly websites. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level js"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>React Native</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level responsive"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="txt_converted.jpg" alt="Project 1">
+                        <h3>Text to Speech Converter</h3>
+                        <p>A frontend project made using React Native on snack.expo.</p>
+                        <a href="https://github.com/Ammoditaa123/Text-to-Speech-Converter.git" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="trex.png" alt="Project 3">
+                        <h3>Trex Simulator</h3>
+                        <p>The good old Trex Game made using 100% Javascript.</p>
+                        <a href="https://github.com/Ammoditaa123/Trex-Game.git" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="todo.jpg" alt="Project 2">
+                        <h3>To-Do List</h3>
+                        <p>Frontend To-Do List made using React Native.</p>
+                        <a href="https://github.com/Ammoditaa123/To-Do-List.git" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ammoditaa Kandpal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
