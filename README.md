@@ -49,6 +49,7 @@ my-portfolio/
 ## 🔗 Live Demo
 
 You can view a live version of this portfolio here:
+**https://ammoditaa-kandpal.netlify.app
 
 -----
 
