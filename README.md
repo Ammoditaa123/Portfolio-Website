@@ -19,8 +19,8 @@ The website is built entirely using **vanilla front-end technologies**: HTML, CS
 
 | Technology | Purpose |
 | :--- | :--- |
-| **HTML5** | Semantic structure and content organization. |
-| **CSS3** | Styling, layout (Flexbox/Grid), responsiveness, and thematic changes (dark mode). |
+| **HTML** | Semantic structure and content organization. |
+| **CSS** | Styling, layout (Flexbox/Grid), responsiveness, and thematic changes (dark mode). |
 | **JavaScript** | Dark mode functionality, and smooth scrolling logic. |
 
 ## 📁 File Structure
@@ -49,7 +49,7 @@ my-portfolio/
 ## 🔗 Live Demo
 
 You can view a live version of this portfolio here:
-**https://ammoditaa-kandpal.netlify.app
+  * **https://ammoditaa-kandpal.netlify.app**
 
 -----
 
