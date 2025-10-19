@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Dark Mode Toggle
     const darkModeToggle = document.getElementById('dark-mode-toggle');
     darkModeToggle.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
@@ -7,9 +6,17 @@ document.addEventListener('DOMContentLoaded', () => {
         darkModeToggle.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
     });
 });
-// Scroll-linked vertical movement
+
 window.addEventListener('scroll', () => {
     const scrollText = document.querySelector('.scroll-text');
     const scrollY = window.scrollY;
-    scrollText.style.transform = `translateY(${scrollY * 0.4}px)`; // Adjust speed here
+    scrollText.style.transform = `translateY(${scrollY * 0.4}px)`; 
+});
+
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('show');
 });
